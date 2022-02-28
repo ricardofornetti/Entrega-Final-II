@@ -1,0 +1,23 @@
+@import '../base/variables';
+
+/* CCS LISTA DE REPRODUCCION*/
+
+.textoPrincipal{
+    font-family:$texto;    
+    margin-top: 80px;
+    margin-right: 40px;    
+    margin-left: 40px;
+    text-align:justify
+}
+.seccion-lista{
+    height: 700px;
+    width: 100%;
+    .div-lista{
+        margin-top: 60px;
+        margin-left: 5%;
+        margin-right: 5%;        
+    }
+}
+
+
+/* FIN LISTA DE REPRODUCCION*/

@@ -1,0 +1,25 @@
+@import '../base/variables';
+.seccion-principal{
+    height: 100%;
+    width: 100%;
+    
+    p{
+        text-align: justify;
+        font-family: $texto;        
+        font-size: 16px;
+        letter-spacing: 2px;
+        line-height: 20px;
+        margin: 20px 40px 10px 20px;  
+    }
+}
+
+.imagenSlider{
+    height:600px;
+    width: 100%;
+    object-fit: cover;
+
+    @media screen and (max-height: 768px){
+        height: 100%;
+    }
+    
+}

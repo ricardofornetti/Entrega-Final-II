@@ -1,0 +1,520 @@
+/* Importar componentes para compilar en el principal */
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lobster&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Work+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@200&family=Lobster&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lobster&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Work+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@200&family=Lobster&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lobster&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Work+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@200&family=Lobster&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lobster&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Work+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@200&family=Lobster&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lobster&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Work+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@200&family=Lobster&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&display=swap");
+.navbar .container-fluid .navbar-brand .imagen-logo {
+  width: 120%;
+  height: 70px;
+}
+.navbar .container-fluid .navbar-nav {
+  margin-left: auto;
+}
+.navbar .container-fluid .navbar-nav .nav-link {
+  color: white;
+  text-transform: uppercase;
+  margin: 15px;
+}
+.navbar .container-fluid .navbar-nav .nav-link:hover {
+  transition: 1.5s;
+  transform: scale(1.1);
+  background-color: #575454;
+}
+
+footer {
+  background-color: #202020;
+  color: white;
+  width: 100%;
+}
+@media screen and (max-width: 992px) {
+  footer {
+    width: 100%;
+    display: flex;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+}
+footer .contenedor {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .contenedor .columna_1 {
+  max-width: 400px;
+}
+footer .contenedor .columna_1 h3 {
+  font-size: 18px;
+  color: #fff;
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+footer .contenedor .columna_1 p {
+  font-size: 14px;
+  color: #C7C7C7;
+  margin-top: 20px;
+}
+@media screen and (max-width: 992px) {
+  footer .contenedor .columna_1 p {
+    max-width: 50%;
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer .contenedor .columna_1 p {
+    max-width: 100%;
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 992px) {
+  footer .contenedor .columna_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer .contenedor .columna_1 {
+    margin: 0 5px;
+  }
+}
+footer .contenedor .columna_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .contenedor .columna_2 h3 {
+  font-size: 18px;
+  color: white;
+  margin-top: 40px;
+}
+footer .contenedor .columna_2 .fila-1 {
+  margin-right: 8px;
+}
+footer .contenedor .columna_2 .fila-2 {
+  margin-right: 15px;
+}
+footer .contenedor .columna_2 .fila-4 {
+  margin-right: 20px;
+}
+footer .contenedor .columna_2 .filas {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+footer .contenedor .columna_2 .filas img {
+  width: 24px;
+  height: 24px;
+}
+footer .contenedor .columna_2 .filas .nombreRed {
+  color: #C7C7C7;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 3%;
+}
+@media screen and (max-width: 768px) {
+  footer .contenedor .columna_2 .filas {
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 992px) {
+  footer .contenedor .columna_2 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer .contenedor .columna_2 {
+    display: flex;
+    align-items: baseline;
+  }
+}
+footer .contenedor .columna_3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .contenedor .columna_3 h3 {
+  font-size: 18px;
+  color: white;
+  margin-top: 40px;
+}
+footer .contenedor .columna_3 .margenes {
+  width: 100%;
+  justify-content: end;
+  margin-right: 25%;
+}
+@media screen and (max-width: 992px) {
+  footer .contenedor .columna_3 .margenes {
+    margin-left: 6%;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer .contenedor .columna_3 .margenes {
+    justify-content: flex-start;
+    margin-left: 0;
+    margin-right: 25%;
+  }
+}
+footer .contenedor .columna_3 .row1 {
+  margin-top: 20px;
+  display: flex;
+}
+footer .contenedor .columna_3 .row1 img {
+  width: 25px;
+  height: 25px;
+}
+footer .contenedor .columna_3 .row1 .nombreRed {
+  text-align: center;
+  text-decoration: none;
+  color: #C7C7C7;
+  margin-top: 2%;
+  margin-left: 7%;
+}
+footer .contenedor .columna_3 .row1 .nombreRed1 {
+  text-decoration: none;
+  color: #C7C7C7;
+  text-align: center;
+  margin-left: 3%;
+}
+footer .contenedor .columna_3 .row1 .float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+footer .contenedor .columna_3 .row1 .float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff;
+}
+footer .contenedor .columna_3 .row1 .my-float {
+  margin-top: 16px;
+}
+@media screen and (max-width: 992px) {
+  footer .contenedor .columna_3 .row1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer .contenedor .columna_3 .row1 {
+    align-items: baseline;
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer .contenedor .columna_3 {
+    align-items: baseline;
+    justify-content: flex-start;
+  }
+}
+footer .contenedor .contenedor_footer {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+footer .contenedor .contenedor_footer .copyright {
+  color: #C7C7C7;
+}
+footer .contenedor .contenedor_footer .informacion a {
+  text-decoration: none;
+  color: white;
+}
+
+/*
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+*/
+/*
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Roboto:wght@400;500&display=swap');
+*/
+.seccion-principal {
+  height: 100%;
+  width: 100%;
+}
+.seccion-principal p {
+  text-align: justify;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  margin: 20px 40px 10px 20px;
+}
+
+.imagenSlider {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+@media screen and (max-height: 768px) {
+  .imagenSlider {
+    height: 100%;
+  }
+}
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Roboto:wght@400;500&display=swap');
+*/
+/*CSS INTEGRANTES*/
+.grid-cantantes {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  /*background-color: gray;*/
+}
+@media screen and (max-width: 768px) {
+  .grid-cantantes {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.grid-cantantes .div1 {
+  grid-area: 1/1/2/2;
+}
+.grid-cantantes .div1 .nombre {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 28px;
+}
+.grid-cantantes .div1 .foto {
+  width: 70%;
+  height: 300px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 3px solid black;
+}
+.grid-cantantes .div2 {
+  grid-area: 1/2/2/3;
+}
+.grid-cantantes .div2 .article {
+  font-family: "Work Sans", sans-serif;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  text-align: justify;
+}
+.grid-cantantes .div3 {
+  grid-area: 2/1/3/2;
+}
+.grid-cantantes .div4 {
+  grid-area: 2/2/3/3;
+}
+.grid-cantantes .div5 {
+  grid-area: 3/1/4/2;
+}
+.grid-cantantes .div6 {
+  grid-area: 3/2/4/3;
+}
+.grid-cantantes .div7 {
+  grid-area: 4/1/5/2;
+}
+.grid-cantantes .div8 {
+  grid-area: 4/2/5/3;
+}
+
+/*
+
+
+
+
+
+*/
+/*CSS INTEGRANTES*/
+/*
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Roboto:wght@400;500&display=swap');
+*/
+/*CSS DISCOGRAFIA*/
+.discos div div .fecha {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-top: 5px;
+  text-align: justify;
+  color: green;
+  margin-left: 5px;
+}
+.discos div div .titulo {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 14px;
+}
+.discos div div .imagen {
+  margin: 40px 10px 20px 10px;
+  display: inline-block;
+  position: relative;
+  height: 250px;
+  border-radius: 5px;
+  border: 3px solid black;
+}
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Roboto:wght@400;500&display=swap');
+*/
+/*CSS VIDEOS*/
+.grid-videos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 2fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+@media screen and (max-width: 768px) {
+  .grid-videos {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.grid-videos .div1 {
+  grid-area: 1/1/2/2;
+}
+@media screen and (max-width: 768px) {
+  .grid-videos .div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.grid-videos .div1 .tiulo-video {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 28px;
+}
+.grid-videos .div1 .articulo1 {
+  font-family: "Work Sans", sans-serif;
+  margin-top: 5px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+@media screen and (max-width: 768px) {
+  .grid-videos .div1 .btn-text {
+    display: flex;
+    justify-content: center;
+  }
+}
+.grid-videos .div1 .btn-uno {
+  margin-top: 40px;
+}
+.grid-videos .div1 .btn-link {
+  margin-top: 20px;
+  margin-left: 280px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .grid-videos .div1 .btn-link {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+  }
+}
+.grid-videos .div2 {
+  grid-area: 1/2/2/3;
+}
+.grid-videos .div3 {
+  grid-area: 2/1/3/2;
+}
+.grid-videos .div4 {
+  grid-area: 2/2/3/3;
+}
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Roboto:wght@400;500&display=swap');
+*/
+/* CCS LISTA DE REPRODUCCION*/
+.textoPrincipal {
+  font-family: "Work Sans", sans-serif;
+  margin-top: 80px;
+  margin-right: 40px;
+  margin-left: 40px;
+  text-align: justify;
+}
+
+.seccion-lista {
+  height: 700px;
+  width: 100%;
+}
+.seccion-lista .div-lista {
+  margin-top: 60px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* FIN LISTA DE REPRODUCCION*/
+body {
+  background-color: gray;
+}
+
+/*# sourceMappingURL=estilo.css.map */

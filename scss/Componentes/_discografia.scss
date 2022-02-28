@@ -1,0 +1,71 @@
+@import '../base/variables';
+
+/*CSS DISCOGRAFIA*/
+
+.discos {
+    div {
+        div {
+            .fecha {
+                font-family:$titulos;
+                font-weight: bold;
+                margin-top: 5px;
+                text-align:justify;
+                color: green;
+                margin-left: 5px;
+            }
+            .titulo {
+                font-family:$titulos;
+                font-weight: bold;            
+                position: absolute;
+                text-transform: uppercase;
+                text-align: center;
+                margin-top: 10px;
+                margin-left: 5px;
+                margin-right: 5px;
+                font-size: 14px;
+            }
+            .imagen {
+                margin: 40px 10px 20px 10px;
+                display: inline-block;    
+                position: relative;
+                height: 250px;
+                border-radius: 5px;
+                border: 3px solid black;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
