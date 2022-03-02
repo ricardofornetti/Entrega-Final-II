@@ -328,20 +328,19 @@ footer .contenedor .contenedor_footer .informacion a {
 .grid-cantantes .div1 {
   grid-area: 1/1/2/2;
 }
-/*
+
 .grid-cantantes .div1 .nombre {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
-  margin-top: 30px;
+  margin-top: 20px;
   font-size: 28px;
 }
-*/
 .grid-cantantes .div1 .foto {
   width: 70%;
   height: 300px;
-  margin-top: 140px;
+  margin-top: 20px;
   margin-bottom: 20px;
   object-fit: cover;
   border-radius: 5px;
@@ -349,16 +348,7 @@ footer .contenedor .contenedor_footer .informacion a {
 }
 .grid-cantantes .div2 {
   grid-area: 1/2/2/3;
-}
-.grid-cantantes .div2 .nombre{
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: bold;
-  margin-top: 50px;
-  font-size: 28px;
-}
-  
+}  
 .grid-cantantes .div2 .article {
   font-family: "Work Sans", sans-serif;
   margin-top: 30px;

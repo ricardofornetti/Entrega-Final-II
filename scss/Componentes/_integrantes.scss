@@ -15,12 +15,20 @@
     }
     .div1 { 
         grid-area: 1 / 1 / 2 / 2;
+        .nombre {
+            font-family:$titulos;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 20px;
+            font-size: 28px;
+        }
         
         }
         .foto{
             width: 70%;
             height: 300px;
-            margin-top: 140px;
+            margin-top: 20px;
             margin-bottom: 20px;
             object-fit: cover;
             border-radius: 5px;
@@ -28,15 +36,7 @@
         }
     }
     .div2 { 
-        grid-area: 1 / 2 / 2 / 3;
-        .nombre {
-            font-family:$titulos;
-            text-transform: uppercase;
-            text-align: center;
-            font-weight: bold;
-            margin-top: 50px;
-            font-size: 28px;
-        }
+        grid-area: 1 / 2 / 2 / 3;        
         .article{
             font-family:$texto;    
             margin-top: 30px;
